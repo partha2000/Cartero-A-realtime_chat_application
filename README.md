@@ -12,3 +12,9 @@ A real-time chat interface where multiple users can interact with each other by 
 -   [ ] User can select and send an emoji
 -   [ ] Users can chat in private
 -   [ ] Users can join `channels` on specific topics
+
+## External Libraries / Dependencies
+
+* Primary Language   : Kotlin
+* Backend            : Firebase
+
