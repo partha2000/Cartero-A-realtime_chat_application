@@ -12,6 +12,7 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -54,10 +55,19 @@ dependencies {
 
     //firebase Realtime Database
     implementation 'com.google.firebase:firebase-database-ktx:19.3.0'
+    // Firebase authentication
+    implementation 'com.google.firebase:firebase-auth-ktx:19.3.1'
+    // Firebase UI Auth
+    implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
+
+    // To maintain multiple packages in gradle
+    implementation 'com.android.support:multidex:2.0.1'
+
+    // Firebase cloud storage
+    implementation 'com.google.firebase:firebase-storage-ktx:19.1.1'
 
     //An image loading and caching library for Android focused on smooth scrolling
     implementation 'com.github.bumptech.glide:glide:4.11.0'
 
-    //Recycler View
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
+
 }
