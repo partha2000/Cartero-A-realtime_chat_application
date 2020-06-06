@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,16 +17,22 @@
         android:gravity="bottom"
         >
 
-        <androidx.recyclerview.widget.RecyclerView
+        <ListView
             android:id="@+id/message_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:stackFromBottom="true"
+            android:layout_above="@+id/send_bar"
+            android:divider="@android:color/transparent"
+            android:transcriptMode="alwaysScroll"
+            tools:listitem="@layout/message_card"
             />
 
         <RelativeLayout
+            android:id="@+id/send_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/message_list"
+            android:layout_alignParentBottom="true"
             android:padding="7dp">
 
             <EditText
@@ -53,3 +60,5 @@
         android:textSize="10sp"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

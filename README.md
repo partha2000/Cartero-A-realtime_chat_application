@@ -17,4 +17,9 @@ A real-time chat interface where multiple users can interact with each other by 
 
 * Primary Language   : Kotlin
 * Backend            : Firebase
+* Glide              : An image loading and caching library for Android focused on smooth scrolling
+
+* Firebase `implementation 'com.google.firebase:firebase-analytics:17.2.2'`
+* Firebase Realtime DB `implementation 'com.google.firebase:firebase-database-ktx:19.3.0'`
+* Glide `implementation 'com.github.bumptech.glide:glide:4.11.0'`
 
