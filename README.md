@@ -2,12 +2,12 @@
 A real-time chat interface where multiple users can interact with each other by sending messages. This app will be made with kotlin. This is a part of the #30daysofKotlin challenge by google dev India.
 
 ## Targeted Features
--   [ ] User is prompted to enter a username when he visits the chat app. The username will be stored in the application
--   [ ] User can see an `input field` where he can type a new message
--   [ ] By pressing the `enter` key or by clicking on the `send` button the text will be displayed in the `chat box` alongside his username (e.g. `John Wick: Hello World!`)
--   [ ] The messages will be visible to all the Users that are in the chat app (using WebSockets)
+-   [X] User is asked to authenticate himself on entering the app using google sign-in, email, etc.
+-   [X] User can see an `input field` where he can type a new message
+-   [X] By pressing the `enter` key or by clicking on the `send` button the text will be displayed in the `chat box` alongside his username (e.g. `John Wick: Hello World!`)
+-   [X] The messages will be visible to all the Users that are in the chat app (using Firebase Realtime Database)
 -   [ ] When a new User joins the chat, a message is displayed to all the existing Users
--   [ ] Messages are saved in a database
+-   [X] Messages are saved in a database
 -   [ ] User can send images, videos and links which will be displayed properly
 -   [ ] User can select and send an emoji
 -   [ ] Users can chat in private
