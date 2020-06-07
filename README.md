@@ -1,5 +1,5 @@
-# Realtime_chat_application
-A real-time chat interface where multiple users can interact with each other by sending messages. This app will be made with kotlin. This is a part of the #30daysofKotlin challenge by google dev India.
+# cartero : A realtime chat application
+A real-time chat interface where multiple users can interact with each other by sending messages. This app was made with kotlin. This is a part of the #30daysofKotlin challenge by google dev India.
 
 ## Targeted Features
 -   [X] User is asked to authenticate himself on entering the app using google sign-in, email, etc.
