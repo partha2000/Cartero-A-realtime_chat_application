@@ -1,6 +1,7 @@
 package com.example.realtime_chat_application.ui.home
 import android.app.Activity
 import android.content.Context
+import android.graphics.Color
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
@@ -45,6 +46,14 @@ class MessageAdapter(
             messageTextView.setText(message?.text)
         }
         authorTextView.setText(message?.name)
+
+//            val colorScheme = mapOf("a".."c" to Color.BLACK,"d".."f" to Color.BLUE,"g".."i" to Color.CYAN,
+//                "j".."l" to Color.DKGRAY,"m".."o" to Color.GREEN,"p".."r" to Color.MAGENTA,"s".."u" to Color.RED,"v".."z" to Color.YELLOW)
+//        var firstLetter = message?.name.toString().first()
+//           var textColor:Int? = colorScheme[firstLetter]
+//                authorTextView.setTextColor(textColor!!)
+
         return convertView
+        }
     }
-}
+

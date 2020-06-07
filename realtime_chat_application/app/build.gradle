@@ -51,7 +51,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
+    implementation 'com.google.firebase:firebase-config-ktx:19.1.4'
+    implementation 'com.google.firebase:firebase-analytics-ktx:17.4.3'
 
     //firebase Realtime Database
     implementation 'com.google.firebase:firebase-database-ktx:19.3.0'
@@ -59,6 +61,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx:19.3.1'
     // Firebase UI Auth
     implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
+    // firebase messaging for notifications
+    implementation 'com.google.firebase:firebase-messaging:20.2.0'
 
     // To maintain multiple packages in gradle
     implementation 'com.android.support:multidex:2.0.1'

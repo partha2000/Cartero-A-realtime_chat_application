@@ -27,6 +27,11 @@
             android:transcriptMode="alwaysScroll"
             tools:listitem="@layout/message_card"
             />
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
         <RelativeLayout
             android:id="@+id/send_bar"

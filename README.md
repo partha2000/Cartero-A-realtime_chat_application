@@ -23,6 +23,6 @@ A real-time chat interface where multiple users can interact with each other by 
 * Firebase Realtime DB `implementation 'com.google.firebase:firebase-database-ktx:19.3.0'`
 * Firebase Authentication `implementation 'com.google.firebase:firebase-auth-ktx:19.3.1'`
 * Firebase UI Auth : `implementation 'com.firebaseui:firebase-ui-auth:6.2.0'`
-
+* Firebase messaging for ntifications: `implementation 'com.google.firebase:firebase-messaging:20.2.0'`
 * Glide `implementation 'com.github.bumptech.glide:glide:4.11.0'`
 
