@@ -1,4 +1,4 @@
-# cartero : A realtime chat application
+# Cartero : A realtime chat application
 A real-time chat interface where multiple users can interact with each other by sending messages. This app was made with kotlin. This is a part of the #30daysofKotlin challenge by google dev India.
 
 ## Targeted Features
