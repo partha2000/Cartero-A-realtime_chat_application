@@ -19,4 +19,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/about_app"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/App_about"/>
+            <TextView
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_marginTop="50dp"
+                android:linksClickable="true"
+                android:autoLink="all"
+                android:layout_below="@+id/about_app"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/github_link"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

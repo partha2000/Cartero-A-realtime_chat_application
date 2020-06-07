@@ -34,15 +34,17 @@
                     android:text="Partha"
                     android:textStyle="bold"
                     android:textColor="@color/colorAccent"
-                    android:textSize="18sp"
+                    android:textSize="15sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
 
             </LinearLayout>
 
         <TextView
+            android:layout_marginLeft="5dp"
             android:layout_below="@+id/sender_bar"
             android:fontFamily="monospace"
+            android:textSize="16sp"
             android:text="@string/dummy_text_large"
             android:id="@+id/message_data"
             android:layout_width="match_parent"

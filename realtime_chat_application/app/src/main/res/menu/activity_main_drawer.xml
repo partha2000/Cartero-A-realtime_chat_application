@@ -8,10 +8,11 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/fui_ic_mail_white_24dp"
             android:title="Chat Room" />
+
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Images" />
+            android:icon="@drawable/fui_ic_github_white_24dp"
+            android:title="About" />
 <!--        <item-->
 <!--            android:id="@+id/nav_slideshow"-->
 <!--            android:icon="@drawable/ic_menu_slideshow"-->
